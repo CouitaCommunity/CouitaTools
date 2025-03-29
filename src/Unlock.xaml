@@ -3,15 +3,13 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:adonisUi="clr-namespace:AdonisUI;assembly=AdonisUI"
-        xmlns:adonisControls="clr-namespace:AdonisUI.Controls;assembly=AdonisUI"                      
-        xmlns:local="clr-namespace:CouitaTools"
+        xmlns:adonisControls="clr-namespace:AdonisUI.Controls;assembly=AdonisUI"
         mc:Ignorable="d"
         Title="" Height="110" Width="700" Background="#FF2A2B34" ResizeMode="NoResize" IconVisibility="Collapsed" WindowStartupLocation="CenterScreen" PlaceTitleBarOverContent="True">
     <Grid>
         <Button Content="Начать разблокировку" HorizontalAlignment="Center" VerticalAlignment="Top" Width="580" Click="Unlock_Click" Margin="0,52,0,0"/>
-        <Label Content="Нажмите кнопку, и мы сделаем разблокировку системы быстро и безопасно, используя сложные технические решения." HorizontalAlignment="Center" Margin="0,34,0,0" VerticalAlignment="Top" FontWeight="Bold" Foreground="#FF7683A9" Opacity="0.9" FontSize="10"/>
-        <ProgressBar x:Name="ProgressBar1" HorizontalAlignment="Center" Height="10" Margin="0,81,0,0" VerticalAlignment="Top" Width="580" Background="#FF333340" BorderBrush="#FF3B3B46"/>
+        <Label Content="Нажмите кнопку, и мы сделаем разблокировку системы быстро и безопасно, используя современные технические решения." HorizontalAlignment="Center" Margin="0,34,0,0" VerticalAlignment="Top" FontWeight="Bold" Foreground="#FF7683A9" Opacity="0.9" FontSize="10"/>
+        <ProgressBar x:Name="ProgressBar1" HorizontalAlignment="Center" Height="10" Margin="0,81,0,0" VerticalAlignment="Top" Width="580" Background="#FF333340" BorderBrush="#FF3B3B46" Foreground="#FF536182"/>
         <Label Content="Разблокировка системы" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Foreground="#FF6074A4" FontSize="18" Opacity="0.85"/>
     </Grid>
 </adonisControls:AdonisWindow>

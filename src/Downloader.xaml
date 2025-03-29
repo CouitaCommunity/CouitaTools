@@ -7,15 +7,15 @@
         adonisExtensions:CursorSpotlightExtension.MaxBlurRadius="128"
         adonisExtensions:CursorSpotlightExtension.RelativeSpotlightSize="0.75"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:CouitaTools"
         mc:Ignorable="d"
-        Height="195" Width="600" Background="#FF2A2B34" 
+        Height="225" Width="600" Background="#FF2A2B34" 
         TitleBarBackground="Transparent" Title="" Foreground="Transparent" ResizeMode="NoResize" IconVisibility="Collapsed" WindowStartupLocation="CenterScreen">
     <Grid>
-        <TextBox adonisExtensions:WatermarkExtension.Watermark="Введите URL" x:Name="TextBlock1"  HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,43,0,0" TextWrapping="Wrap" Width="350" Text="" BorderBrush="#FF47475D"/>
+        <TextBox adonisExtensions:WatermarkExtension.Watermark="Введите URL" x:Name="TextBlock1"  HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,43,0,0" TextWrapping="Wrap" Width="350" Text="" BorderBrush="#FF47475D" Height="25"/>
         <Label Content="Загрузка и запуск ПО из интернета." HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Opacity="0.55" Foreground="#FF6074A4"/>
-        <Button Content="Download" HorizontalAlignment="Center" Margin="0,72,0,0" VerticalAlignment="Top" Width="300" Click="Download_Click"/>
-        <ProgressBar x:Name="ProgressBar1" HorizontalAlignment="Center" Height="15" Margin="0,119,0,0" VerticalAlignment="Top" Width="350" BorderBrush="#FF313131" Background="#FF353540" LargeChange="0"/>
-        <Label Content="Нажмите кнопку, и мы выполним загрузку и запуск программы с использованием современных технологий." HorizontalAlignment="Center" Margin="0,26,0,0" VerticalAlignment="Top" Foreground="#FF7683A9" FontSize="9" Visibility="Visible"/>
+        <Button Content="Download" HorizontalAlignment="Center" Margin="0,132,0,0" VerticalAlignment="Top" Width="300" Click="Download_Click"/>
+        <ProgressBar x:Name="ProgressBar1" HorizontalAlignment="Center" Height="15" Margin="0,161,0,0" VerticalAlignment="Top" Width="350" BorderBrush="#FF313131" Background="#FF353540" LargeChange="0"/>
+        <Label Content="Нажмите кнопку, и мы выполним загрузку и запуск программы с использованием сложных технологий." HorizontalAlignment="Center" Margin="0,26,0,0" VerticalAlignment="Top" Foreground="#FF7683A9" FontSize="9" Visibility="Visible"/>
+        <CheckBox x:Name="CheckBox1" Content="Глубокая защита" HorizontalAlignment="Left" Margin="150,111,0,0" VerticalAlignment="Top"/>
     </Grid>
 </adonisControls:AdonisWindow>
